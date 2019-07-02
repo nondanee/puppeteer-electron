@@ -9,7 +9,6 @@ let child
 
 const launch = (headless = true) =>
 	new Promise(resolve => {
-		console.log(headless)
 		child = spawn(electron, [path.join(__dirname, 'main.js'), headless ? 'headless' : null])
 		child.stdout.on('data', data => {
 			if(data.toString() === 'ready') resolve()
