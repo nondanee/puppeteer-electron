@@ -11,7 +11,7 @@ const launch = options =>
 	new Promise(resolve => {
 		let env = Object.assign({}, options.env || process.env)
 		if('ELECTRON_RUN_AS_NODE' in env) delete env.ELECTRON_RUN_AS_NODE
-		if(!'headless' in options) options.headless = true
+		if(!('headless' in options)) options.headless = true
 		child = spawn(electron, [path.join(__dirname, 'main.js'), '--remote-debugging-port=8315', JSON.stringify(options)], {env})
 		child.stdout.on('data', data => {
 			if(data.toString() === 'ready') resolve()
