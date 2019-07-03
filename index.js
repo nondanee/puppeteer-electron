@@ -14,7 +14,6 @@ const launch = options =>
 		if(!'headless' in options) options.headless = true
 		child = spawn(electron, [path.join(__dirname, 'main.js'), '--remote-debugging-port=8315', JSON.stringify(options)], {env})
 		child.stdout.on('data', data => {
-			console.log(data.toString())
 			if(data.toString() === 'ready') resolve()
 		})
 	})
