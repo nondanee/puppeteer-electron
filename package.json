@@ -11,5 +11,10 @@
   "dependencies": {
     "electron": "^5.0.6",
     "puppeteer-core": "^1.18.1"
-  }
+  },
+  "keywords": [
+    "puppeteer",
+    "electron"
+  ],
+  "repository": "nondanee/puppeteer-electron"
 }
