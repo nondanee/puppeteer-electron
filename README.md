@@ -10,7 +10,7 @@
 
 In comparison with the full-featured Chromium browser (~108MB Mac, ~113MB Linux, ~141MB Win for ZIP package), A portable alternative ------ Electron is able to handle most daily tasks but has half of Chromium's size (~55MB Mac, ~63MB Linux, ~58MB Win for ZIP package)
 
-### Usage
+## Usage
 
 ```javascript
 const puppeteer = require('puppeteer-electron')
@@ -30,6 +30,7 @@ const puppeteer = require('puppeteer-electron')
 - https://discuss.atom.io/t/solved-control-automate-an-electron-application-with-puppeteer/64126
 - https://github.com/electron/electron/issues/3331
 - https://github.com/peterdanis/electron-puppeteer-demo
+- https://github.com/electron/electron/issues/11515
 
 ## License
 
