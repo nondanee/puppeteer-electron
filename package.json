@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-electron",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Use Puppeteer's API with Electron",
   "main": "index.js",
   "scripts": {
