@@ -28,8 +28,9 @@ const puppeteer = require('puppeteer-electron')
 ## Reference
 
 - https://discuss.atom.io/t/solved-control-automate-an-electron-application-with-puppeteer/64126
-- https://github.com/electron/electron/issues/3331
+- https://stackoverflow.com/questions/51847667/how-to-automate-electronjs-app
 - https://github.com/peterdanis/electron-puppeteer-demo
+- https://github.com/electron/electron/issues/3331
 - https://github.com/electron/electron/issues/11515
 
 ## License
