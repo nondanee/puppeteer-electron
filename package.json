@@ -4,7 +4,7 @@
   "description": "Use Puppeteer's API with Electron",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "nondanee",
   "license": "MIT",
