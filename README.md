@@ -16,7 +16,7 @@ In comparison with the full-featured Chromium browser (~108MB Mac, ~113MB Linux,
 const puppeteer = require('puppeteer-electron')
 
 ;(async () => {
-	const app = await puppeteer.launch({headless: false}) // default is true
+	const app = await puppeteer.launch({ headless: false }) // default is true
 	const pages = await app.pages()
 	const [page] = pages
 	await page.goto('https://bing.com')
