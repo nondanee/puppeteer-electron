@@ -9,7 +9,7 @@
   "author": "nondanee",
   "license": "MIT",
   "dependencies": {
-    "electron": "^5.0.6",
+    "electron": "^9.1.0",
     "puppeteer-core": "^1.18.1"
   },
   "keywords": [
